@@ -10,7 +10,8 @@
   <strong>中文</strong> | 
   <a href="./README.en.md">English</a> | 
   <a href="./README.fr.md">Français</a> | 
-  <a href="./README.ja.md">日本語</a>
+  <a href="./README.ja.md">日本語</a> |
+  <a href="./README.fa.md">فارسی</a>
 </p>
 
 <p align="center">
