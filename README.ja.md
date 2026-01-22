@@ -7,11 +7,11 @@
 🍥 **次世代大規模モデルゲートウェイとAI資産管理システム**
 
 <p align="center">
-  <a href="./README.md">中文</a> | 
+  <a href="./README.md.zh">中文</a> | 
   <a href="./README.en.md">English</a> | 
   <a href="./README.fr.md">Français</a> | 
   <strong>日本語</strong> |
-  <a href="./README.fa.md">فارسی</a>
+  <a href="./README.md">فارسی</a>
 </p>
 
 <p align="center">

@@ -4,14 +4,14 @@
 
 # New API
 
-🍥 **新一代大模型网关与AI资产管理系统**
+🍥 **سیستم مدیریت دروازه و دارایی‌های هوش مصنوعی نسل جدید**
 
 <p align="center">
-  <strong>中文</strong> | 
+  <a href="./README.md.zh">中文</a> | 
   <a href="./README.en.md">English</a> | 
   <a href="./README.fr.md">Français</a> | 
   <a href="./README.ja.md">日本語</a> |
-  <a href="./README.fa.md">فارسی</a>
+  <strong>فارسی</strong>
 </p>
 
 <p align="center">
@@ -39,31 +39,31 @@
 </p>
 
 <p align="center">
-  <a href="#-快速开始">快速开始</a> •
-  <a href="#-主要特性">主要特性</a> •
-  <a href="#-部署">部署</a> •
-  <a href="#-文档">文档</a> •
-  <a href="#-帮助支持">帮助</a>
+  <a href="#-شروع-سریع">شروع سریع</a> •
+  <a href="#-ویژگی‌های-اصلی">ویژگی‌های اصلی</a> •
+  <a href="#-استقرار">استقرار</a> •
+  <a href="#-مستندات">مستندات</a> •
+  <a href="#-پشتیبانی">پشتیبانی</a>
 </p>
 
 </div>
 
-## 📝 项目说明
+## 📝 توضیحات پروژه
 
 > [!NOTE]  
-> 本项目为开源项目，在 [One API](https://github.com/songquanpeng/one-api) 的基础上进行二次开发
+> این پروژه یک پروژه متن‌باز است که بر اساس [One API](https://github.com/songquanpeng/one-api) توسعه داده شده است
 
 > [!IMPORTANT]  
-> - 本项目仅供个人学习使用，不保证稳定性，且不提供任何技术支持
-> - 使用者必须在遵循 OpenAI 的 [使用条款](https://openai.com/policies/terms-of-use) 以及**法律法规**的情况下使用，不得用于非法用途
-> - 根据 [《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) 的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务
+> - این پروژه فقط برای یادگیری شخصی است، بدون تضمین پایداری و پشتیبانی فنی
+> - کاربران باید از [شرایط استفاده](https://openai.com/policies/terms-of-use) OpenAI و **قوانین و مقررات** پیروی کنند و نباید برای اهداف غیرقانونی استفاده شود
+> - طبق [《اقدامات موقت برای مدیریت خدمات هوش مصنوعی مولد》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)، لطفاً هیچ خدمات هوش مصنوعی مولد ثبت‌نشده‌ای را به عموم مردم در چین ارائه ندهید
 
 ---
 
-## 🤝 我们信任的合作伙伴
+## 🤝 شرکای مورد اعتماد ما
 
 <p align="center">
-  <em>排名不分先后</em>
+  <em>بدون ترتیب خاص</em>
 </p>
 
 <p align="center">
@@ -71,13 +71,13 @@
     <img src="./docs/images/cherry-studio.png" alt="Cherry Studio" height="80" />
   </a>
   <a href="https://bda.pku.edu.cn/" target="_blank">
-    <img src="./docs/images/pku.png" alt="北京大学" height="80" />
+    <img src="./docs/images/pku.png" alt="دانشگاه پکن" height="80" />
   </a>
   <a href="https://www.compshare.cn/?ytag=GPU_yy_gh_newapi" target="_blank">
-    <img src="./docs/images/ucloud.png" alt="UCloud 优刻得" height="80" />
+    <img src="./docs/images/ucloud.png" alt="UCloud" height="80" />
   </a>
   <a href="https://www.aliyun.com/" target="_blank">
-    <img src="./docs/images/aliyun.png" alt="阿里云" height="80" />
+    <img src="./docs/images/aliyun.png" alt="علی‌بابا کلود" height="80" />
   </a>
   <a href="https://io.net/" target="_blank">
     <img src="./docs/images/io-net.png" alt="IO.NET" height="80" />
@@ -86,7 +86,7 @@
 
 ---
 
-## 🙏 特别鸣谢
+## 🙏 تشکر ویژه
 
 <p align="center">
   <a href="https://www.jetbrains.com/?from=new-api" target="_blank">
@@ -95,42 +95,42 @@
 </p>
 
 <p align="center">
-  <strong>感谢 <a href="https://www.jetbrains.com/?from=new-api">JetBrains</a> 为本项目提供免费的开源开发许可证</strong>
+  <strong>با تشکر از <a href="https://www.jetbrains.com/?from=new-api">JetBrains</a> برای ارائه مجوز توسعه متن‌باز رایگان برای این پروژه</strong>
 </p>
 
 ---
 
-## 🚀 快速开始
+## 🚀 شروع سریع
 
-### 使用 Docker Compose（推荐）
+### استفاده از Docker Compose (توصیه می‌شود)
 
 ```bash
-# 克隆项目
+# کلون کردن پروژه
 git clone https://github.com/QuantumNous/new-api.git
 cd new-api
 
-# 编辑 docker-compose.yml 配置
+# ویرایش پیکربندی docker-compose.yml
 nano docker-compose.yml
 
-# 启动服务
+# شروع سرویس
 docker-compose up -d
 ```
 
 <details>
-<summary><strong>使用 Docker 命令</strong></summary>
+<summary><strong>استفاده از دستورات Docker</strong></summary>
 
 ```bash
-# 拉取最新镜像
+# دریافت آخرین نسخه image
 docker pull calciumion/new-api:latest
 
-# 使用 SQLite（默认）
+# استفاده از SQLite (پیش‌فرض)
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
   calciumion/new-api:latest
 
-# 使用 MySQL
+# استفاده از MySQL
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" \
@@ -139,214 +139,214 @@ docker run --name new-api -d --restart always \
   calciumion/new-api:latest
 ```
 
-> **💡 提示：** `-v ./data:/data` 会将数据保存在当前目录的 `data` 文件夹中，你也可以改为绝对路径如 `-v /your/custom/path:/data`
+> **💡 نکته:** `-v ./data:/data` داده‌ها را در پوشه `data` دایرکتوری فعلی ذخیره می‌کند، می‌توانید آن را به مسیر مطلق مانند `-v /your/custom/path:/data` تغییر دهید
 
 </details>
 
 ---
 
-🎉 部署完成后，访问 `http://localhost:3000` 即可使用！
+🎉 پس از تکمیل استقرار، برای استفاده به `http://localhost:3000` مراجعه کنید!
 
-📖 更多部署方式请参考 [部署指南](https://docs.newapi.pro/zh/docs/installation)
+📖 برای روش‌های بیشتر استقرار، لطفاً به [راهنمای استقرار](https://docs.newapi.pro/zh/docs/installation) مراجعه کنید
 
 ---
 
-## 📚 文档
+## 📚 مستندات
 
 <div align="center">
 
-### 📖 [官方文档](https://docs.newapi.pro/zh/docs) | [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QuantumNous/new-api)
+### 📖 [مستندات رسمی](https://docs.newapi.pro/zh/docs) | [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/QuantumNous/new-api)
 
 </div>
 
-**快速导航：**
+**راهنمای سریع:**
 
-| 分类 | 链接 |
+| دسته‌بندی | لینک |
 |------|------|
-| 🚀 部署指南 | [安装文档](https://docs.newapi.pro/zh/docs/installation) |
-| ⚙️ 环境配置 | [环境变量](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables) |
-| 📡 接口文档 | [API 文档](https://docs.newapi.pro/zh/docs/api) |
-| ❓ 常见问题 | [FAQ](https://docs.newapi.pro/zh/docs/support/faq) |
-| 💬 社区交流 | [交流渠道](https://docs.newapi.pro/zh/docs/support/community-interaction) |
+| 🚀 راهنمای استقرار | [مستندات نصب](https://docs.newapi.pro/zh/docs/installation) |
+| ⚙️ پیکربندی محیط | [متغیرهای محیطی](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables) |
+| 📡 مستندات API | [مستندات API](https://docs.newapi.pro/zh/docs/api) |
+| ❓ سوالات متداول | [FAQ](https://docs.newapi.pro/zh/docs/support/faq) |
+| 💬 تعامل جامعه | [کانال‌های ارتباطی](https://docs.newapi.pro/zh/docs/support/community-interaction) |
 
 ---
 
-## ✨ 主要特性
+## ✨ ویژگی‌های اصلی
 
-> 详细特性请参考 [特性说明](https://docs.newapi.pro/zh/docs/guide/wiki/basic-concepts/features-introduction)
+> برای ویژگی‌های دقیق لطفاً به [معرفی ویژگی‌ها](https://docs.newapi.pro/zh/docs/guide/wiki/basic-concepts/features-introduction) مراجعه کنید
 
-### 🎨 核心功能
+### 🎨 عملکردهای اصلی
 
-| 特性 | 说明 |
+| ویژگی | توضیحات |
 |------|------|
-| 🎨 全新 UI | 现代化的用户界面设计 |
-| 🌍 多语言 | 支持中文、英文、法语、日语 |
-| 🔄 数据兼容 | 完全兼容原版 One API 数据库 |
-| 📈 数据看板 | 可视化控制台与统计分析 |
-| 🔒 权限管理 | 令牌分组、模型限制、用户管理 |
+| 🎨 رابط کاربری جدید | طراحی رابط کاربری مدرن |
+| 🌍 چند زبانه | پشتیبانی از چینی، انگلیسی، فرانسوی، ژاپنی |
+| 🔄 سازگاری داده | کاملاً سازگار با پایگاه داده One API اصلی |
+| 📈 داشبورد داده | کنسول بصری و تجزیه و تحلیل آماری |
+| 🔒 مدیریت مجوزها | گروه‌بندی توکن، محدودیت مدل، مدیریت کاربر |
 
-### 💰 支付与计费
+### 💰 پرداخت و صورتحساب
 
-- ✅ 在线充值（易支付、Stripe）
-- ✅ 模型按次数收费
-- ✅ 缓存计费支持（OpenAI、Azure、DeepSeek、Claude、Qwen等所有支持的模型）
-- ✅ 灵活的计费策略配置
+- ✅ شارژ آنلاین (EPay، Stripe)
+- ✅ قیمت‌گذاری مدل بر اساس تعداد
+- ✅ پشتیبانی از صورتحساب کش (OpenAI، Azure، DeepSeek، Claude، Qwen و تمام مدل‌های پشتیبانی شده)
+- ✅ پیکربندی سیاست صورتحساب انعطاف‌پذیر
 
-### 🔐 授权与安全
+### 🔐 احراز هویت و امنیت
 
-- 😈 Discord 授权登录
-- 🤖 LinuxDO 授权登录
-- 📱 Telegram 授权登录
-- 🔑 OIDC 统一认证
-- 🔍 Key 查询使用额度（配合 [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool)）
+- 😈 ورود با احراز هویت Discord
+- 🤖 ورود با احراز هویت LinuxDO
+- 📱 ورود با احراز هویت Telegram
+- 🔑 احراز هویت یکپارچه OIDC
+- 🔍 جستجوی کلید برای استفاده از سهمیه (با [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool))
 
-### 🚀 高级功能
+### 🚀 ویژگی‌های پیشرفته
 
-**API 格式支持：**
+**پشتیبانی از فرمت API:**
 - ⚡ [OpenAI Responses](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/create-response)
-- ⚡ [OpenAI Realtime API](https://docs.newapi.pro/zh/docs/api/ai-model/realtime/create-realtime-session)（含 Azure）
+- ⚡ [OpenAI Realtime API](https://docs.newapi.pro/zh/docs/api/ai-model/realtime/create-realtime-session) (شامل Azure)
 - ⚡ [Claude Messages](https://docs.newapi.pro/zh/docs/api/ai-model/chat/create-message)
 - ⚡ [Google Gemini](https://doc.newapi.pro/api/google-gemini-chat)
-- 🔄 [Rerank 模型](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank)（Cohere、Jina）
+- 🔄 [مدل‌های Rerank](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank) (Cohere، Jina)
 
-**智能路由：**
-- ⚖️ 渠道加权随机
-- 🔄 失败自动重试
-- 🚦 用户级别模型限流
+**مسیریابی هوشمند:**
+- ⚖️ تصادفی وزنی کانال
+- 🔄 تلاش مجدد خودکار در صورت شکست
+- 🚦 محدودیت نرخ مدل در سطح کاربر
 
-**格式转换：**
+**تبدیل فرمت:**
 - 🔄 **OpenAI Compatible ⇄ Claude Messages**
 - 🔄 **OpenAI Compatible → Google Gemini**
-- 🔄 **Google Gemini → OpenAI Compatible** - 仅支持文本，暂不支持函数调用
-- 🚧 **OpenAI Compatible ⇄ OpenAI Responses** - 开发中
-- 🔄 **思考转内容功能**
+- 🔄 **Google Gemini → OpenAI Compatible** - فقط متن، فراخوانی تابع هنوز پشتیبانی نمی‌شود
+- 🚧 **OpenAI Compatible ⇄ OpenAI Responses** - در حال توسعه
+- 🔄 **عملکرد تبدیل تفکر به محتوا**
 
-**Reasoning Effort 支持：**
+**پشتیبانی Reasoning Effort:**
 
 <details>
-<summary>查看详细配置</summary>
+<summary>مشاهده پیکربندی دقیق</summary>
 
-**OpenAI 系列模型：**
-- `o3-mini-high` - High reasoning effort
-- `o3-mini-medium` - Medium reasoning effort
-- `o3-mini-low` - Low reasoning effort
-- `gpt-5-high` - High reasoning effort
-- `gpt-5-medium` - Medium reasoning effort
-- `gpt-5-low` - Low reasoning effort
+**مدل‌های سری OpenAI:**
+- `o3-mini-high` - تلاش استدلال بالا
+- `o3-mini-medium` - تلاش استدلال متوسط
+- `o3-mini-low` - تلاش استدلال پایین
+- `gpt-5-high` - تلاش استدلال بالا
+- `gpt-5-medium` - تلاش استدلال متوسط
+- `gpt-5-low` - تلاش استدلال پایین
 
-**Claude 思考模型：**
-- `claude-3-7-sonnet-20250219-thinking` - 启用思考模式
+**مدل‌های تفکر Claude:**
+- `claude-3-7-sonnet-20250219-thinking` - فعال‌سازی حالت تفکر
 
-**Google Gemini 系列模型：**
-- `gemini-2.5-flash-thinking` - 启用思考模式
-- `gemini-2.5-flash-nothinking` - 禁用思考模式
-- `gemini-2.5-pro-thinking` - 启用思考模式
-- `gemini-2.5-pro-thinking-128` - 启用思考模式，并设置思考预算为128tokens
-- 也可以直接在 Gemini 模型名称后追加 `-low` / `-medium` / `-high` 来控制思考力度（无需再设置思考预算后缀）
+**مدل‌های سری Google Gemini:**
+- `gemini-2.5-flash-thinking` - فعال‌سازی حالت تفکر
+- `gemini-2.5-flash-nothinking` - غیرفعال‌سازی حالت تفکر
+- `gemini-2.5-pro-thinking` - فعال‌سازی حالت تفکر
+- `gemini-2.5-pro-thinking-128` - فعال‌سازی حالت تفکر با بودجه تفکر 128 توکن
+- همچنین می‌توانید `-low` / `-medium` / `-high` را مستقیماً به نام مدل Gemini اضافه کنید تا شدت تفکر را کنترل کنید (نیازی به تنظیم پسوند بودجه تفکر نیست)
 
 </details>
 
 ---
 
-## 🤖 模型支持
+## 🤖 پشتیبانی از مدل
 
-> 详情请参考 [接口文档 - 中继接口](https://docs.newapi.pro/zh/docs/api)
+> برای جزئیات، لطفاً به [مستندات API - رابط رله](https://docs.newapi.pro/zh/docs/api) مراجعه کنید
 
-| 模型类型 | 说明 | 文档 |
+| نوع مدل | توضیحات | مستندات |
 |---------|------|------|
-| 🤖 OpenAI GPTs | gpt-4-gizmo-* 系列 | - |
-| 🎨 Midjourney-Proxy | [Midjourney-Proxy(Plus)](https://github.com/novicezk/midjourney-proxy) | [文档](https://doc.newapi.pro/api/midjourney-proxy-image) |
-| 🎵 Suno-API | [Suno API](https://github.com/Suno-API/Suno-API) | [文档](https://doc.newapi.pro/api/suno-music) |
-| 🔄 Rerank | Cohere、Jina | [文档](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank) |
-| 💬 Claude | Messages 格式 | [文档](https://docs.newapi.pro/zh/docs/api/ai-model/chat/create-message) |
-| 🌐 Gemini | Google Gemini 格式 | [文档](https://doc.newapi.pro/api/google-gemini-chat) |
-| 🔧 Dify | ChatFlow 模式 | - |
-| 🎯 自定义 | 支持完整调用地址 | - |
+| 🤖 OpenAI GPTs | سری gpt-4-gizmo-* | - |
+| 🎨 Midjourney-Proxy | [Midjourney-Proxy(Plus)](https://github.com/novicezk/midjourney-proxy) | [مستندات](https://doc.newapi.pro/api/midjourney-proxy-image) |
+| 🎵 Suno-API | [Suno API](https://github.com/Suno-API/Suno-API) | [مستندات](https://doc.newapi.pro/api/suno-music) |
+| 🔄 Rerank | Cohere، Jina | [مستندات](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank) |
+| 💬 Claude | فرمت Messages | [مستندات](https://docs.newapi.pro/zh/docs/api/ai-model/chat/create-message) |
+| 🌐 Gemini | فرمت Google Gemini | [مستندات](https://doc.newapi.pro/api/google-gemini-chat) |
+| 🔧 Dify | حالت ChatFlow | - |
+| 🎯 سفارشی | پشتیبانی از آدرس فراخوانی کامل | - |
 
-### 📡 支持的接口
+### 📡 رابط‌های پشتیبانی شده
 
 <details>
-<summary>查看完整接口列表</summary>
+<summary>مشاهده لیست کامل رابط‌ها</summary>
 
-- [聊天接口 (Chat Completions)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/create-chat-completion)
-- [响应接口 (Responses)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/create-response)
-- [图像接口 (Image)](https://docs.newapi.pro/zh/docs/api/ai-model/images/openai/v1-images-generations--post)
-- [音频接口 (Audio)](https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/create-transcription)
-- [视频接口 (Video)](https://docs.newapi.pro/zh/docs/api/ai-model/videos/create-video-generation)
-- [嵌入接口 (Embeddings)](https://docs.newapi.pro/zh/docs/api/ai-model/embeddings/create-embedding)
-- [重排序接口 (Rerank)](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank)
-- [实时对话 (Realtime)](https://docs.newapi.pro/zh/docs/api/ai-model/realtime/create-realtime-session)
-- [Claude 聊天](https://docs.newapi.pro/zh/docs/api/ai-model/chat/create-message)
-- [Google Gemini 聊天](https://doc.newapi.pro/api/google-gemini-chat)
+- [رابط چت (Chat Completions)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/create-chat-completion)
+- [رابط پاسخ (Responses)](https://docs.newapi.pro/zh/docs/api/ai-model/chat/openai/create-response)
+- [رابط تصویر (Image)](https://docs.newapi.pro/zh/docs/api/ai-model/images/openai/v1-images-generations--post)
+- [رابط صوتی (Audio)](https://docs.newapi.pro/zh/docs/api/ai-model/audio/openai/create-transcription)
+- [رابط ویدئو (Video)](https://docs.newapi.pro/zh/docs/api/ai-model/videos/create-video-generation)
+- [رابط جاسازی (Embeddings)](https://docs.newapi.pro/zh/docs/api/ai-model/embeddings/create-embedding)
+- [رابط مرتب‌سازی مجدد (Rerank)](https://docs.newapi.pro/zh/docs/api/ai-model/rerank/create-rerank)
+- [گفتگوی بلادرنگ (Realtime)](https://docs.newapi.pro/zh/docs/api/ai-model/realtime/create-realtime-session)
+- [چت Claude](https://docs.newapi.pro/zh/docs/api/ai-model/chat/create-message)
+- [چت Google Gemini](https://doc.newapi.pro/api/google-gemini-chat)
 
 </details>
 
 ---
 
-## 🚢 部署
+## 🚢 استقرار
 
 > [!TIP]
-> **最新版 Docker 镜像：** `calciumion/new-api:latest`
+> **آخرین نسخه Docker image:** `calciumion/new-api:latest`
 
-### 📋 部署要求
+### 📋 الزامات استقرار
 
-| 组件 | 要求 |
+| جزء | الزامات |
 |------|------|
-| **本地数据库** | SQLite（Docker 需挂载 `/data` 目录）|
-| **远程数据库** | MySQL ≥ 5.7.8 或 PostgreSQL ≥ 9.6 |
-| **容器引擎** | Docker / Docker Compose |
+| **پایگاه داده محلی** | SQLite (Docker باید دایرکتوری `/data` را mount کند)|
+| **پایگاه داده راه دور** | MySQL ≥ 5.7.8 یا PostgreSQL ≥ 9.6 |
+| **موتور کانتینر** | Docker / Docker Compose |
 
-### ⚙️ 环境变量配置
+### ⚙️ پیکربندی متغیرهای محیطی
 
 <details>
-<summary>常用环境变量配置</summary>
+<summary>پیکربندی متغیرهای محیطی رایج</summary>
 
-| 变量名 | 说明                                                           | 默认值 |
-|--------|--------------------------------------------------------------|--------|
-| `SESSION_SECRET` | 会话密钥（多机部署必须）                                                 | - |
-| `CRYPTO_SECRET` | 加密密钥（Redis 必须）                                               | - |
-| `SQL_DSN` | 数据库连接字符串                                                     | - |
-| `REDIS_CONN_STRING` | Redis 连接字符串                                                  | - |
-| `STREAMING_TIMEOUT` | 流式超时时间（秒）                                                    | `300` |
-| `STREAM_SCANNER_MAX_BUFFER_MB` | 流式扫描器单行最大缓冲（MB），图像生成等超大 `data:` 片段（如 4K 图片 base64）需适当调大 | `64` |
-| `MAX_REQUEST_BODY_MB` | 请求体最大大小（MB，**解压后**计；防止超大请求/zip bomb 导致内存暴涨），超过将返回 `413` | `32` |
-| `AZURE_DEFAULT_API_VERSION` | Azure API 版本                                                 | `2025-04-01-preview` |
-| `ERROR_LOG_ENABLED` | 错误日志开关                                                       | `false` |
-| `PYROSCOPE_URL` | Pyroscope 服务地址                                            | - |
-| `PYROSCOPE_APP_NAME` | Pyroscope 应用名                                        | `new-api` |
-| `PYROSCOPE_BASIC_AUTH_USER` | Pyroscope Basic Auth 用户名                        | - |
-| `PYROSCOPE_BASIC_AUTH_PASSWORD` | Pyroscope Basic Auth 密码                  | - |
-| `PYROSCOPE_MUTEX_RATE` | Pyroscope mutex 采样率                               | `5` |
-| `PYROSCOPE_BLOCK_RATE` | Pyroscope block 采样率                               | `5` |
-| `HOSTNAME` | Pyroscope 标签里的主机名                                          | `new-api` |
+| نام متغیر | توضیحات | مقدار پیش‌فرض |
+|--------|------|--------|
+| `SESSION_SECRET` | کلید جلسه (برای استقرار چند ماشینه ضروری است) | - |
+| `CRYPTO_SECRET` | کلید رمزگذاری (برای Redis ضروری است) | - |
+| `SQL_DSN` | رشته اتصال پایگاه داده | - |
+| `REDIS_CONN_STRING` | رشته اتصال Redis | - |
+| `STREAMING_TIMEOUT` | زمان انقضای جریان (ثانیه) | `300` |
+| `STREAM_SCANNER_MAX_BUFFER_MB` | حداکثر بافر در هر خط اسکنر جریان (MB)، تولید تصویر و غیره که قطعات بسیار بزرگ `data:` (مانند تصاویر 4K base64) را باید به اندازه کافی افزایش دهید | `64` |
+| `MAX_REQUEST_BODY_MB` | حداکثر اندازه بدنه درخواست (MB، **پس از باز کردن فشرده‌سازی** محاسبه می‌شود؛ از درخواست‌های بسیار بزرگ/zip bomb که باعث افزایش حافظه می‌شوند جلوگیری می‌کند)، تجاوز از آن `413` برمی‌گرداند | `32` |
+| `AZURE_DEFAULT_API_VERSION` | نسخه API Azure | `2025-04-01-preview` |
+| `ERROR_LOG_ENABLED` | سوئیچ لاگ خطا | `false` |
+| `PYROSCOPE_URL` | آدرس سرویس Pyroscope | - |
+| `PYROSCOPE_APP_NAME` | نام برنامه Pyroscope | `new-api` |
+| `PYROSCOPE_BASIC_AUTH_USER` | نام کاربری احراز هویت پایه Pyroscope | - |
+| `PYROSCOPE_BASIC_AUTH_PASSWORD` | رمز عبور احراز هویت پایه Pyroscope | - |
+| `PYROSCOPE_MUTEX_RATE` | نرخ نمونه‌برداری mutex Pyroscope | `5` |
+| `PYROSCOPE_BLOCK_RATE` | نرخ نمونه‌برداری block Pyroscope | `5` |
+| `HOSTNAME` | نام میزبان در برچسب Pyroscope | `new-api` |
 
-📖 **完整配置：** [环境变量文档](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables)
+📖 **پیکربندی کامل:** [مستندات متغیرهای محیطی](https://docs.newapi.pro/zh/docs/installation/config-maintenance/environment-variables)
 
 </details>
 
-### 🔧 部署方式
+### 🔧 روش‌های استقرار
 
 <details>
-<summary><strong>方式 1：Docker Compose（推荐）</strong></summary>
+<summary><strong>روش 1: Docker Compose (توصیه می‌شود)</strong></summary>
 
 ```bash
-# 克隆项目
+# کلون کردن پروژه
 git clone https://github.com/QuantumNous/new-api.git
 cd new-api
 
-# 编辑配置
+# ویرایش پیکربندی
 nano docker-compose.yml
 
-# 启动服务
+# شروع سرویس
 docker-compose up -d
 ```
 
 </details>
 
 <details>
-<summary><strong>方式 2：Docker 命令</strong></summary>
+<summary><strong>روش 2: دستورات Docker</strong></summary>
 
-**使用 SQLite：**
+**استفاده از SQLite:**
 ```bash
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
@@ -355,7 +355,7 @@ docker run --name new-api -d --restart always \
   calciumion/new-api:latest
 ```
 
-**使用 MySQL：**
+**استفاده از MySQL:**
 ```bash
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
@@ -365,80 +365,80 @@ docker run --name new-api -d --restart always \
   calciumion/new-api:latest
 ```
 
-> **💡 路径说明：** 
-> - `./data:/data` - 相对路径，数据保存在当前目录的 data 文件夹
-> - 也可使用绝对路径，如：`/your/custom/path:/data`
+> **💡 توضیح مسیر:** 
+> - `./data:/data` - مسیر نسبی، داده‌ها در پوشه data دایرکتوری فعلی ذخیره می‌شوند
+> - همچنین می‌توانید از مسیر مطلق استفاده کنید، به عنوان مثال: `/your/custom/path:/data`
 
 </details>
 
 <details>
-<summary><strong>方式 3：宝塔面板</strong></summary>
+<summary><strong>روش 3: پنل BaoTa</strong></summary>
 
-1. 安装宝塔面板（≥ 9.2.0 版本）
-2. 在应用商店搜索 **New-API**
-3. 一键安装
+1. نصب پنل BaoTa (نسخه ≥ 9.2.0)
+2. جستجوی **New-API** در فروشگاه برنامه
+3. نصب با یک کلیک
 
-📖 [图文教程](./docs/BT.md)
+📖 [آموزش تصویری](./docs/BT.md)
 
 </details>
 
-### ⚠️ 多机部署注意事项
+### ⚠️ ملاحظات استقرار چند ماشینه
 
 > [!WARNING]
-> - **必须设置** `SESSION_SECRET` - 否则登录状态不一致
-> - **公用 Redis 必须设置** `CRYPTO_SECRET` - 否则数据无法解密
+> - **باید تنظیم شود** `SESSION_SECRET` - در غیر این صورت وضعیت ورود ناسازگار است
+> - **Redis مشترک باید تنظیم شود** `CRYPTO_SECRET` - در غیر این صورت داده‌ها قابل رمزگشایی نیستند
 
-### 🔄 渠道重试与缓存
+### 🔄 تلاش مجدد کانال و کش
 
-**重试配置：** `设置 → 运营设置 → 通用设置 → 失败重试次数`
+**پیکربندی تلاش مجدد:** `تنظیمات → تنظیمات عملیاتی → تنظیمات عمومی → تعداد تلاش مجدد در صورت شکست`
 
-**缓存配置：**
-- `REDIS_CONN_STRING`：Redis 缓存（推荐）
-- `MEMORY_CACHE_ENABLED`：内存缓存
-
----
-
-## 🔗 相关项目
-
-### 上游项目
-
-| 项目 | 说明 |
-|------|------|
-| [One API](https://github.com/songquanpeng/one-api) | 原版项目基础 |
-| [Midjourney-Proxy](https://github.com/novicezk/midjourney-proxy) | Midjourney 接口支持 |
-
-### 配套工具
-
-| 项目 | 说明 |
-|------|------|
-| [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool) | Key 额度查询工具 |
-| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | New API 高性能优化版 |
+**پیکربندی کش:**
+- `REDIS_CONN_STRING`: کش Redis (توصیه می‌شود)
+- `MEMORY_CACHE_ENABLED`: کش حافظه
 
 ---
 
-## 💬 帮助支持
+## 🔗 پروژه‌های مرتبط
 
-### 📖 文档资源
+### پروژه‌های upstream
 
-| 资源 | 链接 |
+| پروژه | توضیحات |
 |------|------|
-| 📘 常见问题 | [FAQ](https://docs.newapi.pro/zh/docs/support/faq) |
-| 💬 社区交流 | [交流渠道](https://docs.newapi.pro/zh/docs/support/community-interaction) |
-| 🐛 反馈问题 | [问题反馈](https://docs.newapi.pro/zh/docs/support/feedback-issues) |
-| 📚 完整文档 | [官方文档](https://docs.newapi.pro/zh/docs) |
+| [One API](https://github.com/songquanpeng/one-api) | پایه پروژه اصلی |
+| [Midjourney-Proxy](https://github.com/novicezk/midjourney-proxy) | پشتیبانی از رابط Midjourney |
 
-### 🤝 贡献指南
+### ابزارهای پشتیبان
 
-欢迎各种形式的贡献！
-
-- 🐛 报告 Bug
-- 💡 提出新功能
-- 📝 改进文档
-- 🔧 提交代码
+| پروژه | توضیحات |
+|------|------|
+| [neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool) | ابزار جستجوی سهمیه کلید |
+| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | نسخه بهینه‌شده با کارایی بالای New API |
 
 ---
 
-## 🌟 Star History
+## 💬 پشتیبانی
+
+### 📖 منابع مستندات
+
+| منبع | لینک |
+|------|------|
+| 📘 سوالات متداول | [FAQ](https://docs.newapi.pro/zh/docs/support/faq) |
+| 💬 تعامل جامعه | [کانال‌های ارتباطی](https://docs.newapi.pro/zh/docs/support/community-interaction) |
+| 🐛 بازخورد مشکل | [بازخورد مشکل](https://docs.newapi.pro/zh/docs/support/feedback-issues) |
+| 📚 مستندات کامل | [مستندات رسمی](https://docs.newapi.pro/zh/docs) |
+
+### 🤝 راهنمای مشارکت
+
+خوش‌آمدید به تمام اشکال مشارکت!
+
+- 🐛 گزارش باگ‌ها
+- 💡 پیشنهاد ویژگی‌های جدید
+- 📝 بهبود مستندات
+- 🔧 ارسال کد
+
+---
+
+## 🌟 تاریخچه ستاره‌ها
 
 <div align="center">
 
@@ -450,12 +450,12 @@ docker run --name new-api -d --restart always \
 
 <div align="center">
 
-### 💖 感谢使用 New API
+### 💖 با تشکر از استفاده از New API
 
-如果这个项目对你有帮助，欢迎给我们一个 ⭐️ Star！
+اگر این پروژه برای شما مفید بود، خوشحال می‌شویم یک ⭐️ ستاره به ما بدهید!
 
-**[官方文档](https://docs.newapi.pro/zh/docs)** • **[问题反馈](https://github.com/Calcium-Ion/new-api/issues)** • **[最新发布](https://github.com/Calcium-Ion/new-api/releases)**
+**[مستندات رسمی](https://docs.newapi.pro/zh/docs)** • **[بازخورد مشکل](https://github.com/Calcium-Ion/new-api/issues)** • **[آخرین نسخه](https://github.com/Calcium-Ion/new-api/releases)**
 
-<sub>Built with ❤️ by QuantumNous</sub>
+<sub>ساخته شده با ❤️ توسط QuantumNous</sub>
 
 </div>

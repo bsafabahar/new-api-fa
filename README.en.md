@@ -7,11 +7,11 @@
 🍥 **Next-Generation Large Model Gateway and AI Asset Management System**
 
 <p align="center">
-  <a href="./README.md">中文</a> | 
+  <a href="./README.md.zh">中文</a> | 
   <strong>English</strong> | 
   <a href="./README.fr.md">Français</a> | 
   <a href="./README.ja.md">日本語</a> |
-  <a href="./README.fa.md">فارسی</a>
+  <a href="./README.md">فارسی</a>
 </p>
 
 <p align="center">
